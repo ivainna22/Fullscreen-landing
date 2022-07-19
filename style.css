@@ -59,15 +59,13 @@ a{
         text-align: left; 
     }
 
-    #paddings{
-        padding: 20px;
-    }
-
     #brownbackground{
         color: white;
         background-color: #926239;
+        padding: 20px;
     }
 
     #whitebackground{
         background-color: white;
+        padding: 20px;
     }
