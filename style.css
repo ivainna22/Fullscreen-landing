@@ -9,10 +9,10 @@ body{
 
 .font {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     color:#926239;
     text-align: center;
-    line-height: 2;
+    line-height: 1.6;
 }
 
 header{
@@ -24,7 +24,6 @@ header{
 
 h1{
   font-size: 50px!important;
-  line-height: 1.5;
   display: block;
   padding-top: 300px;
 }
@@ -39,8 +38,7 @@ a{
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px 20px;
-    font-size: 18px;
+    padding: 10px 20px;
     text-decoration: none;
     background-color: transparent;
     border-width: 1px;
@@ -53,12 +51,12 @@ a{
         background-color: #926239;
         color: white;
     }
-
      
-    .three-sections{
+    .third-section{
         display: inline-block;
-        text-align: left;
-       
+        box-sizing: border-box;
+        width: 33%;
+        text-align: left; 
     }
 
     #paddings{
@@ -72,5 +70,4 @@ a{
 
     #whitebackground{
         background-color: white;
-
     }
