@@ -9,8 +9,10 @@ body{
 
 .font {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     color:#926239;
     text-align: center;
+    line-height: 2;
 }
 
 header{
@@ -21,13 +23,13 @@ header{
     }
 
 h1{
-  font-size: 50px;
+  font-size: 50px!important;
   line-height: 1.5;
   display: block;
   padding-top: 300px;
 }
 
-p{
+#font-p1{
     font-size: 20px;
 }
 
@@ -54,6 +56,7 @@ a{
 
     .section-first{
         display: block;
+        padding: 20px;
 
     }
 
@@ -61,13 +64,17 @@ a{
 
     .section-second{
         display: inline-block;
+        text-align: left;
+        padding: 20px 20px;
 
     }
 
-    #whitefont{
-
+    #brownbackground{
+        color: white;
+        background-color: #926239;
     }
 
-    #brownfont{
+    #whitebackground{
+        background-color: white;
 
     }
