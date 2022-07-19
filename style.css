@@ -54,19 +54,15 @@ a{
         color: white;
     }
 
-    .section-first{
-        display: block;
-        padding: 20px;
-
-    }
-
-    
-
-    .section-second{
+     
+    .three-sections{
         display: inline-block;
         text-align: left;
-        padding: 20px 20px;
+       
+    }
 
+    #paddings{
+        padding: 20px;
     }
 
     #brownbackground{
