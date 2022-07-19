@@ -21,18 +21,53 @@ header{
     }
 
 h1{
-  font-size: 50px !important;
+  font-size: 50px;
+  line-height: 1.5;
   display: block;
+  padding-top: 300px;
 }
+
+p{
+    font-size: 20px;
+}
+
 a{
-    width: 120px;
+    width: 100px;
     display: block;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    padding: 15px 20px;
+    font-size: 18px;
+    text-decoration: none;
     background-color: transparent;
-    padding: 10px 20px;
     border-width: 1px;
     border-color: #926239;
     border-radius: 10px;
     border-style: solid;
+    }
+
+    a:hover{
+        background-color: #926239;
+        color: white;
+    }
+
+    .section-first{
+        display: block;
+
+    }
+
+    
+
+    .section-second{
+        display: inline-block;
+
+    }
+
+    #whitefont{
+
+    }
+
+    #brownfont{
+
     }
